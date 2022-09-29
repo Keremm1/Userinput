@@ -1,20 +1,3 @@
-#Biz ne istiyoruz?Etkileşimli kabuk üzerinden kullanıcıdan girdi alan belli özelliklere sahip bir program yapmak istiyoruz.
-#Özellikler:
-#-Kullanıcının girdiği değerleri almalı.
-#-Kullanıcıdan aldığı değerleri anlık olarak kontrol etmeli ve istenilen kalıba uygun olmayan girdi için aktif bir hata mesajı yollamalı.
-#-Kullanıcı aktif olarak isterse girdiği değerleri sisteme yollamadıysa silebilmeli.
-#-1 ile gönderiyi sisteme ilşetebilmeli.
-#Plan:
-#1-Girdiyi alma yolumuz?
-#2-Girdiyi anlık aktif kontrol etme?
-#3-Girdinin durumuna göçre hata veya onay mesajı gönderme?
-#4-Girdi silme özelliği eklemeli?
-#5-1 tuşu ile veriyi onaylayıp sisteme gönderme?
-#6-Gerekli olabilecek hataları göze alma.(UniEncodeError gibi)
-#1-Şartları kontrol et yani veri için kotnrol mekanizması geliştir
-#2-Döngüde sorun olmadığından emin ol yani her program döngünün başına geldiğinde hata olup olmadığını kontrol et.
-
-
 import os,sys,msvcrt,time
 clear = lambda : os.system('cls')
 clear()
